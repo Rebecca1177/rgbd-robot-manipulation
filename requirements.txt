@@ -1,0 +1,6 @@
+# Final modular pipeline; recorded Python version: 3.10.7.
+numpy==2.2.6
+open3d==0.20.0
+# Standard package for new environments. Existing environment metadata reports
+# pybullet_arm64==3.2.8 (module build 2026-03-13); this is not an exact lock.
+pybullet

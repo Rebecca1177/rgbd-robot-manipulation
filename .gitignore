@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# IDE settings
+.vscode/
+
+# Logs and temporary files
+*.log
+
+# Experiment outputs
+results/
+
+# Development data
+data/
+
+# Learning exercises
+exercises/
+
+# Personal notes
+notes/Day01_NumPy*
+# AI assistant/project instructions
+AGENTS.md
+# Release hygiene
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+experiments/
+roadmap/
+
+# Keep only project evidence and demonstration documentation
+notes/*
+!notes/day1_robustness.md
+!notes/day2_closeout.md
+!notes/day2_refactor_validation_20261001.md
+!notes/demo_guide.md
+
+# Publish the two documented benchmark evidence files only
+!results/
+results/*
+!results/baseline_seed42.json
+!results/refactored_seed42.json
